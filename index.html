@@ -11,14 +11,27 @@
 </head>
 
 <body>
-    <header>
-        <h1>Kevin David Chavarro Erazo</h1>
-        <p>Desarrollador Full Stack</p>
-        <img src="images/kevin.jpeg" alt="Kevin David Chavarro Erazo" width="200">
-        <p>kevin.chavarro@gmail.com</p>
-        <p>Cali, Valle del Cauca</p>
-        <p>24 años</p>
-        <p><a href="https://portafolio-henna-psi.vercel.app/" target="_blank">Ver mi portafolio completo</a></p>
+    <header class="hero-section">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="images/kevin.jpeg" alt="Kevin David Chavarro Erazo">
+            </div>
+            <div class="profile-info">
+                <h1>Kevin David Chavarro Erazo</h1>
+                <h2 class="job-title">Desarrollador Full Stack</h2>
+                <p class="description">Apasionado por la tecnología y el desarrollo de soluciones innovadoras</p>
+                <div class="contact-details">
+                    <p><span class="icon">📧</span> kevin.chavarro@gmail.com</p>
+                    <p><span class="icon">📍</span> Cali, Valle del Cauca</p>
+                    <p><span class="icon">🎂</span> 24 años</p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="https://portafolio-henna-psi.vercel.app/" target="_blank" class="btn-primary">Ver
+                        Portafolio</a>
+                    <a href="#formulario-contacto" class="btn-secondary">Contactar</a>
+                </div>
+            </div>
+        </div>
     </header>
 
     <nav>
@@ -34,7 +47,8 @@
         </ul>
     </nav>
 
-    <main>
+    <div class="main-content">
+        <main></main>
         <section id="contacto">
             <h2>INFORMACIÓN DE CONTACTO</h2>
             <div class="contact-info">
@@ -258,24 +272,24 @@
                 <button type="reset">Limpiar Formulario</button>
             </form>
         </section>
-    </main>
+        </main>
 
-    <footer>
-        <section id="referencias">
-            <h2>REFERENCIAS PERSONALES</h2>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <strong>Nombre</strong> - ROL<br>
-                    <i>Número</i>
+        <footer>
+            <section id="referencias">
+                <h2>REFERENCIAS PERSONALES</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <strong>Nombre</strong> - ROL<br>
+                        <i>Número</i>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Nombre</strong> - ROL<br>
+                        <i>Número</i>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <strong>Nombre</strong> - ROL<br>
-                    <i>Número</i>
-                </div>
-            </div>
-        </section>
-    </footer>
-
+            </section>
+        </footer>
+    </div>
 
 </body>
 
