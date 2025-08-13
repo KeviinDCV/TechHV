@@ -2,68 +2,84 @@
 
 ## Descripción
 
-Sitio web estático desarrollado como parte del laboratorio de HTML, CSS y JavaScript. La hoja de vida incluye información personal, profesional y de contacto con funcionalidades interactivas avanzadas.
+Este es mi sitio web de hoja de vida desarrollado como parte del laboratorio de HTML, CSS y JavaScript. Incluye información personal, profesional y un formulario de contacto.
 
-## Características Implementadas
+## Lo que incluye el proyecto
 
-### ✅ Estructura HTML
-- Documento HTML5 bien estructurado con etiquetas semánticas
-- Título descriptivo y metadatos apropiados
-- Navegación fija con enlaces internos
-- Secciones organizadas con IDs únicos
+### Estructura HTML
+- Documento HTML5 con etiquetas básicas
+- Título de la página y metadatos
+- Menú de navegación
+- Secciones organizadas
 
-### ✅ Contenido Requerido
-- **Encabezados**: H1, H2, H3 con jerarquía apropiada
-- **Párrafos**: Información personal y profesional
-- **Imágenes**: Foto de perfil y logos de herramientas
-- **Enlaces**: Navegación interna y enlaces externos (portafolio)
+### Contenido
+- Encabezados H1, H2, H3
+- Párrafos con información personal
+- Imagen de perfil
+- Enlaces a mi portafolio
 
-### ✅ Listas
-- **Lista desordenada**: Hobbies e intereses (8 elementos)
-- **Lista ordenada**: Proyectos desarrollados (5 elementos)
-- **Listas adicionales**: Educación, idiomas, herramientas
+### Listas
+- Lista de hobbies e intereses
+- Lista de proyectos desarrollados
+- Lista de educación e idiomas
 
-### ✅ Tablas
-- **Tabla de habilidades técnicas**: Con thead, tbody, tr, th, td
-- **Tabla de horario semanal**: Actividades por día y horario
-- Estilos responsivos y efectos hover
+### Tablas
+- Tabla de habilidades técnicas
+- Tabla de horario semanal
+- Estilos para las tablas
 
-### ✅ Formulario de Contacto
-- Campos variados: text, email, tel, number, url, date, time, textarea
-- Atributos de validación: required, minlength, maxlength, pattern
-- Fieldsets organizados por categorías
-- Botones de envío y reset
+### Formulario de Contacto
+- Campos para nombre, email, teléfono
+- Campos para información del proyecto
+- Validaciones básicas
+- Botones de envío y limpiar
 
-### ✅ CSS Avanzado
-- Diseño responsive con media queries
-- Paleta de colores consistente
-- Tipografía profesional
-- Efectos de transición y hover
-- Layout flexbox para componentes
-- Estilos específicos por sección
+### Estilos CSS
+- Diseño que se adapta a diferentes pantallas
+- Colores y tipografía consistente
+- Efectos al pasar el mouse
+- Menú de navegación fijo
 
-### ✅ JavaScript Interactivo
-- **Validaciones de formulario**: En tiempo real y al enviar
-- **Smooth scroll**: Navegación suave entre secciones
-- **Efectos visuales**: Typing effect, contadores animados
-- **Interactividad**: Botón volver arriba, barra de progreso
-- **Mensajes dinámicos**: Confirmación de envío y errores
-- **Observador de intersección**: Animaciones al hacer scroll
+### JavaScript
+- Validaciones del formulario
+- Navegación suave entre secciones
+- Botón para volver arriba
+- Mensajes de confirmación
 
-## Visualización
+## Archivos del proyecto
 
-La hoja de vida está publicada en GitHub Pages y puede ser visualizada en:
-[https://keviindcv.github.io/TechHV/](https://keviindcv.github.io/TechHV/)
+- index.html - Página principal
+- style.css - Estilos y diseño
+- script.js - Funciones de JavaScript
+- images/kevin.jpeg - Foto de perfil
+- README.md - Este archivo
 
-## Estructura del Proyecto
+## Tecnologías usadas
 
-```
-TechHV/
-├── index.html          # Archivo principal de la hoja de vida
-├── styles.css          # Estilos CSS (si aplica)
-└── README.md          # Este archivo
-```
+- HTML5
+- CSS3
+- JavaScript
+- Diseño responsive
+
+## Cómo ver el proyecto
+
+1. Abrir el archivo index.html en cualquier navegador
+2. Navegar por las diferentes secciones
+3. Probar el formulario de contacto
+4. Ver cómo se adapta en diferentes tamaños de pantalla
+
+## Objetivos del laboratorio cumplidos
+
+- Estructura HTML básica
+- Uso de encabezados, párrafos, imágenes y enlaces
+- Listas ordenadas y desordenadas
+- Tabla con horario semanal
+- Formulario de contacto funcional
+- Estilos CSS
+- JavaScript para validaciones
+- Sitio web responsive
 
 ## Autor
 
-Kevin
+Kevin David Chavarro Erazo
+Email: kevin.chavarro@gmail.com
