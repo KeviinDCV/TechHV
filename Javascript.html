@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Producción de Bananas</title>
+</head>
+<body>
+    <h1>Calculadora de Producción de Bananas</h1>
+
+    <p>Cantidad de azúcar disponible (kilogramos):</p>
+    <input type="number" id="cantidadAzucar" value="5">
+
+    <p>Gramos de azúcar necesarios por banana:</p>
+    <input type="number" id="pesoBananas" value="150">
+
+    <br><br>
+    <button onclick="calcularBananas()">Calcular Producción de Bananas</button>
+
+    <div id="resultado"></div>
+
+    <script>
+       
+        function calcularBananas() {
+           
+            var cantidadAzucar = parseFloat(document.getElementById('cantidadAzucar').value);
+            var pesoBananas = parseFloat(document.getElementById('pesoBananas').value);
+            var gramosAzucar = cantidadAzucar * 1000;
+            var azucarDesperdiciada = gramosAzucar * 10 / 100;
+            var azucarUtilizable = gramosAzucar - azucarDesperdiciada;
+            var bananasProducidas = azucarUtilizable / pesoBananas;
+            var bananasCompletas = Math.floor(bananasProducidas);
+            var resultado = document.getElementById('resultado');
+            resultado.innerHTML = '<h2>Resultados:</h2>' +
+                '<p><strong>Paso 1:</strong> gramosAzucar = ' + cantidadAzucar + ' * 1000 = ' + gramosAzucar + ' gramos</p>' +
+                '<p><strong>Paso 2:</strong> azucarDesperdiciada = ' + gramosAzucar + ' * 10 / 100 = ' + azucarDesperdiciada + ' gramos</p>' +
+                '<p><strong>Paso 3:</strong> azucarUtilizable = ' + gramosAzucar + ' - ' + azucarDesperdiciada + ' = ' + azucarUtilizable + ' gramos</p>' +
+                '<p><strong>Paso 4:</strong> bananasProducidas = ' + azucarUtilizable + ' / ' + pesoBananas + ' = ' + bananasProducidas.toFixed(2) + ' bananas</p>' +
+                '<p><strong>RESULTADO FINAL:</strong> Se pueden producir ' + bananasCompletas + ' bananas completas</p>';
+        }
+    </script>
+</body>
+</html>

@@ -1,20 +1,54 @@
-# TechHV - Hoja de Vida Digital
+# Hoja de Vida - Kevin David Chavarro Erazo
 
 ## Descripción
 
-Este proyecto contiene mi hoja de vida digital desarrollada en HTML y CSS. Es una página web responsiva que presenta mi información personal, experiencia académica, habilidades técnicas y proyectos realizados.
+Sitio web estático desarrollado como parte del laboratorio de HTML, CSS y JavaScript. La hoja de vida incluye información personal, profesional y de contacto con funcionalidades interactivas avanzadas.
 
-## Contenido de la Hoja de Vida
+## Características Implementadas
 
-La página web incluye las siguientes secciones:
+### ✅ Estructura HTML
+- Documento HTML5 bien estructurado con etiquetas semánticas
+- Título descriptivo y metadatos apropiados
+- Navegación fija con enlaces internos
+- Secciones organizadas con IDs únicos
 
-- **Información Personal**: Datos de contacto y presentación profesional
-- **Perfil Profesional**: Resumen de mis objetivos y fortalezas
-- **Experiencia Académica**: Formación educativa y certificaciones
-- **Habilidades Técnicas**: Conocimientos en programación y tecnologías
-- **Proyectos**: Trabajos y proyectos desarrollados
-- **Idiomas**: Nivel de competencia en diferentes idiomas
-- **Referencias**: Contactos profesionales y académicos
+### ✅ Contenido Requerido
+- **Encabezados**: H1, H2, H3 con jerarquía apropiada
+- **Párrafos**: Información personal y profesional
+- **Imágenes**: Foto de perfil y logos de herramientas
+- **Enlaces**: Navegación interna y enlaces externos (portafolio)
+
+### ✅ Listas
+- **Lista desordenada**: Hobbies e intereses (8 elementos)
+- **Lista ordenada**: Proyectos desarrollados (5 elementos)
+- **Listas adicionales**: Educación, idiomas, herramientas
+
+### ✅ Tablas
+- **Tabla de habilidades técnicas**: Con thead, tbody, tr, th, td
+- **Tabla de horario semanal**: Actividades por día y horario
+- Estilos responsivos y efectos hover
+
+### ✅ Formulario de Contacto
+- Campos variados: text, email, tel, number, url, date, time, textarea
+- Atributos de validación: required, minlength, maxlength, pattern
+- Fieldsets organizados por categorías
+- Botones de envío y reset
+
+### ✅ CSS Avanzado
+- Diseño responsive con media queries
+- Paleta de colores consistente
+- Tipografía profesional
+- Efectos de transición y hover
+- Layout flexbox para componentes
+- Estilos específicos por sección
+
+### ✅ JavaScript Interactivo
+- **Validaciones de formulario**: En tiempo real y al enviar
+- **Smooth scroll**: Navegación suave entre secciones
+- **Efectos visuales**: Typing effect, contadores animados
+- **Interactividad**: Botón volver arriba, barra de progreso
+- **Mensajes dinámicos**: Confirmación de envío y errores
+- **Observador de intersección**: Animaciones al hacer scroll
 
 ## Visualización
 
